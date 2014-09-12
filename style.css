@@ -1,0 +1,227 @@
+@font-face{
+    font-family: 'OpenSans';
+    src: url('OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSansBold';
+    src: url('OpenSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+    
+}
+html{
+    font-size: 90%;
+    font-family: "OpenSans";
+}
+body{
+    margin: 0 auto; 
+
+}
+/*Começo da área que estiliza o header da página*/
+header{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 45px;
+	background-color: #141414;
+	color: white;
+}
+#menu-logo{
+	
+	margin: 0 auto;
+	width: 950px;
+	height: 100%;
+}
+#logo{
+	width: 210px;	
+	height: 100%;	
+}
+#logo div{	
+	margin: 7.5% 20%;
+}
+#menu{
+	width: 370px;	
+	height: 100%;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+#menu ul{
+	list-style-type:none;
+	margin: 4.3% 0;
+	height: 50%;
+}
+
+#menu ul li{
+	display: inline;
+	padding-right: 4.3%;
+	padding-left: 4.3%;
+	padding-top: 4.2%;
+	padding-bottom: 3.6%;		
+}
+
+#menu ul li:hover{
+	background-color: #25211e;
+	border-bottom-style: solid;
+	border-bottom-color: #FD6712;
+	border-bottom-width: 2px;
+
+}
+#construir-projeto{
+	height: 100%;	
+	width: 370px;
+}
+#form-construir-projeto{
+	margin: 0 auto;
+	height: 100%;
+}
+
+#ed-construir-projeto{
+	padding-top: 2.0%;
+	padding-bottom: 2.0%;
+	border-radius: 4px;
+	margin-top: 2.8%;
+	border-style: none;
+	width: 42%;
+	margin-right: 3.7%;
+	margin-left: 3.7%;
+
+}
+
+#bt-construir-projeto{
+	border-style: none;
+	background-color: #FD6712;
+	color: white;
+	padding-top: 2.0%;
+	padding-bottom: 2.0%;
+	border-radius: 4px;
+	margin-top: 2.8%;
+	width: 42%;
+	margin-right: 3.7%;
+	margin-left: 3.7%;
+
+}
+#bt-construir-projeto:hover{
+	cursor: pointer;
+
+}
+
+/*Fim da área que estiliza a header da página*/
+
+/*Começo da área que estiliza o menu de regiões da página*/
+
+#menu-regioes{
+	width: 190px;	
+	margin-right: 30px;
+	margin-left: 13%;
+	list-style: none;		
+}
+
+#menu-regioes li{
+	margin-bottom: 30px;
+}
+
+#menu-regioes li:hover{
+	border-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FD6712;
+	color: #555555;	
+}
+
+li a{
+	text-decoration: none;
+	color: #666666;
+}
+
+/*Fim da área que estiliza o menu de regiões da página*/
+
+/*Começo da área que estiliza a exibição de feiras da página*/
+
+.feira{
+	width: 715px;
+	height: 240px;
+	margin-bottom: 45px;	
+	margin-left: 30.5%;
+	border-bottom-style: solid;	
+	border-color: black;
+	border-width: 2px;
+}
+
+.feira header{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-bottom-color: #3498db;
+	margin-bottom: 25px;
+}
+
+/*Começa a seguir um trecho de css que deve ser retirado, visto que 
+  a cor dos quadradinhos "estado-data" vai ser alterado através de programação 
+
+  cores usar- #3498db #e67e22 #2ecc71*/
+#estado-data{
+	background-color: #3498db;
+	height: 100%;
+	width: 50px;
+	color: white;
+	margin-right: 15px;
+}
+
+#titulo{
+	color: #3498db;
+	padding-top: 1%;		
+	font-size: 20px;
+	font-family: "OpenSansBold";
+
+}
+/*Termina aqui o trecho que deve ser retirado*/
+
+.corpo-feira{
+	width: 100%;
+	height: 100%;		
+}
+
+.texto-feira{	
+	color: #454545;
+	width: 460px;
+	margin-right: 25px;	
+	margin-bottom: 25px;	
+}
+
+.textinho-imagem{
+	width: 230px;		
+	float: right;
+	height: 100%;
+	color: #454545;	
+}
+
+.imagem{
+	width: 100%;
+	height: 38%;
+}
+
+.textinho{
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+/*Fim da área que estiliza a exibição de feiras da página*/
