@@ -133,19 +133,23 @@ header{
 }
 
 #menu-regioes li{
-	margin-bottom: 30px;
+	margin-bottom: 30px;	
+	
 }
 
-#menu-regioes li:hover{
-	border-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #FD6712;
-	color: #555555;	
-}
 
-li a{
+
+li a{	
+	padding: 4px 0;
 	text-decoration: none;
 	color: #666666;
+	font-weight: bold;
+	border-bottom: 2px solid transparent;
+}
+
+li a:hover{		
+	border-bottom-color: #FD6712;
+	color: #555555;		
 }
 
 /*Fim da área que estiliza o menu de regiões da página*/
@@ -162,6 +166,14 @@ li a{
 	border-width: 2px;
 }
 
+<<<<<<< HEAD
+.feira > header{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border-style: none;
+	border-bottom: 3px solid #3498db;	
+=======
 .feira .cabecalho{
 	width: 100%;
 	height: 50px;
@@ -170,11 +182,12 @@ li a{
 
 	border-width: 3px;
 	border-bottom-color: #3498db;
+>>>>>>> cf7cc228f20bfec4b82fc318ba3640960685d1f2
 	margin-bottom: 25px;
 }
 
 /*Começa a seguir um trecho de css que deve ser retirado, visto que 
-  a cor dos quadradinhos "estado-data" vai ser alterado através de programação 
+  a cor dos quadradinhos "estado-data" vai ser alterado através de programação (que coisa linda, hein minino)
 
   cores usar- #3498db #e67e22 #2ecc71*/
 #estado-data{
@@ -195,8 +208,7 @@ li a{
 /*Termina aqui o trecho que deve ser retirado*/
 
 .corpo-feira{
-	width: 100%;
-	height: 100%;		
+	width: 100%;	
 }
 
 .texto-feira{	
