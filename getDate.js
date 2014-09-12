@@ -1,3 +1,4 @@
+/* esse scriptzinho atualiza a data das feiras para a data atual*/
 var data = new Date();
 var dia;
 var mes;
@@ -43,6 +44,6 @@ switch (mes){
 		mes = "DEZ";		
 		break;											
 }
-data = dia+" "+mes;
+data = dia+mes;
 
 document.getElementById('data').innerHTML = data;
