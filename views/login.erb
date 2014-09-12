@@ -1,0 +1,20 @@
+<% if login? %>
+	<% redirect '/admin'%>
+<% else %>
+	<form action="/login" method="post" class="login">
+		<div>
+			<label for="emailAdmin">Email</label>
+			<input type="email" name="emailAdmin" required/>
+		</div>
+
+		<div>
+			<label for="senha">Senha</label>
+			<input type="password" name="senha" required/>
+			<%= @msg%>
+		</div>
+
+		<div>
+			<input type="submit" value="Login">
+		</div>		
+	</form>
+<% end %>

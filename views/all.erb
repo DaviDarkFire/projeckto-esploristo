@@ -1,0 +1,14 @@
+<div>
+<% @tudo.each do |t| %>
+
+<li><%=t.nomeEvento %></li>
+<li><%=t.dataEvento %></li>
+<li><%=t.siteEvento %></li>
+
+<% end %>
+
+<% @todo.each do |to| %>
+<li> <%= to.nome %></li>
+<li> <%= to.emailAdmin %></li>
+<% end %>
+</div>

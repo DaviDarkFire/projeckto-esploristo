@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Projekto Esploristo</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+	<body>
+		<header>
+			<div id="menu-logo">
+
+				<div id="logo" class="left">
+					<div>Projekto Esploristo</div>					
+				</div>
+
+				<nav id="menu" class="left">
+					<ul>
+						<li> <a href="#">Página Inicial</a> </li>
+						<li> <a href="#">Quem Somos Nós</a> </li>
+						<li> <a href="#">Sobre Nós     </a> </li>
+					</ul>
+				</nav>
+
+				<div id="construir-projeto" class="right">
+					<form method="post" action="/construirProjeto" id="form-construir-projeto">
+						<input type="text" name="post[construaProjeto]" id="ed-construir-projeto" onfocus="this.">
+						<input type="submit" value="Construa seu projeto" id="bt-construir-projeto" name="bt-construir-projeto">
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<ul id="menu-regioes" class="left">
+			<li><a href="#">Centro Oeste</a></li>
+			<li><a href="#">Sudeste</a></li>
+			<li><a href="#">Sul</a></li>
+			<li><a href="#">Nordeste</a></li>
+			<li><a href="#">Norte</a></li>
+		</ul>
+
+		<main>
+			<%= yield%>
+		</main>
+
+	</body>
+</html>

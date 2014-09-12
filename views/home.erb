@@ -1,0 +1,36 @@
+<% @feiras.each do |feira|%>
+	<div class="feira" class="right">
+	<header>
+		<div class="estado-data left">
+
+			<div class="estado">
+				<%= feira.estadoEvento %>
+			</div>
+			<div class="data">
+				<%= feira.dataEvento %>
+			</div>
+
+		</div>
+
+		<div class="titulo"> 
+			<strong><%= feira.nomeEvento %></strong>
+		</div>
+	</header>
+
+	<div class="corpo-feira">				
+		
+		<div class="texto-feira" class="left">
+			<%= feira.textoEvento%>
+		</div>				
+
+		<div class="textinho-imagem">
+
+			<img src="<%= feira.imagemEvento%>" class="imagem">
+			<p class="textinho">
+				<%= feira.localEvento %>
+			</p>
+
+		</div>
+	</div>							
+</div>
+<% end %>
